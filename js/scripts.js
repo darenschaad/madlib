@@ -9,13 +9,13 @@ $(document).ready(function() {
     var adjective3Input = $("input#adjective3").val();
 
 
-    $(".adjective1").append(adjective1Input);
-    $(".person1").append(person1Input);
-    $(".animal1").append(animal1Input);
-    $(".animal2").append(animal2Input);
-    $(".verbpast").append(verbpastInput);
-    $(".adjective2").append(adjective2Input);
-    $(".adjective3").append(adjective3Input);
+    $(".adjective1").text(adjective1Input);
+    $(".person1").text(person1Input);
+    $(".animal1").text(animal1Input);
+    $(".animal2").text(animal2Input);
+    $(".verbpast").text(verbpastInput);
+    $(".adjective2").text(adjective2Input);
+    $(".adjective3").text(adjective3Input);
 
     $("#story").show();
 
